@@ -1,0 +1,544 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Page Scroller With Hamburger Navigation Example</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/c09fe48a9c.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Roboto Condensed';
+        }
+        .vc-1 .iner-list{padding: 5px;border: 1px solid #ccc; height:50px; font-size: 18px; margin-top:4px; background-color:rgba(255, 255, 255, 0.8);}
+        .vc-1 .iner-list:hover{border: 4px solid #ccc; cursor: pointer;}
+        .vc-1 .iner-list h2{font-size: 100%; text-align: center; margin-top: 8px;}
+    </style>
+</head>
+
+<body>
+    <div class="navbar nav-mn-nav fixed-top" style="background-color: rgba(255, 255, 255, 0.8);">
+        <div class="navbar-logo-head">
+            <h1><span class="nv-lg-ft">Anand</span><span class="nv-lg-st">Solutions</span></h1>
+        </div>
+        <div class="menu-link">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <section id="news">
+        <div>
+            <h1 class="text-center" data-aos="fade-down">AnandSolutions</h1>
+            <h3 class="text-center" data-aos="fade-right" style="margin: 10px 20% 0px 20%;">
+                Consultant And Digital Marketing Compenay is Known for High Optemized Servise in Software Devlopment and
+                Digital Marketing.
+            </h3>
+        </div>
+    </section>
+    <section id="feedback">
+        <div style="background-color: #ccc; ">
+            <br><br />
+            <h2 class="text-center">Feedback Section</h2>
+            <br><br />
+            <div class="container">
+                <div class="row" data-aos="fade-down">
+                    <div class="col-lg-3 col-md-4 col-sm-2 col-xs-2">
+                        <div class="card" style="width: 100%;">
+                            <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;">
+                                <i class="fa fa-blog"></i></h2>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Web Developement</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-2 col-xs-2">
+                        <div class="card" style="width: 100%;">
+                            <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;">
+                                <i class="fa fa-blog"></i></h2>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Android Developement</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-2 col-xs-2">
+                        <div class="card" style="width: 100%;">
+                            <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;">
+                                <i class="fa fa-blog"></i></h2>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">SEO</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-4 col-sm-2 col-xs-2">
+                        <div class="card" style="width: 100%;">
+                            <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;">
+                                <i class="fa fa-blog"></i></h2>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Cyber Security</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <BR />
+                <div class="row" data-aos="fade-up">
+                    <div class="col-lg-3 col-md-4 col-sm-2 col-xs-2">
+                        <div class="card" style="width: 100%;" style="width: 100%;">
+                            <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;">
+                                <i class="fa fa-blog"></i></h2>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Digital marketing</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-2 col-xs-2">
+                        <div class="card" style="width: 100%;" style="width: 18rem; padding: 2px;">
+                            <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;">
+                                <i class="fa fa-blog"></i></h2>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Cloud deployment</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-2 col-xs-2">
+                        <div class="card" style="width: 100%;">
+                            <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;">
+                                <i class="fa fa-blog"></i></h2>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Software Testing</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-2 col-xs-2">
+                        <div class="card" style="width: 100%;">
+                            <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;">
+                                <i class="fa fa-blog"></i></h2>
+                            <div class="card-body">
+                                <h5 class="card-title text-center">Artificial Intelligence</h5>
+                                <p class="card-text">Some quick example text to build on the card title and make up the
+                                    bulk of the card's content.</p>
+                                <a href="#" class="btn btn-primary">Go somewhere</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br />
+        </div>
+    </section>
+    <section id="Have-An-Idea">
+        <br><br />
+        <h2 class="text-center">Have An Idea For Web App? Contact</h2>
+        <h4 class="text-center">AnandSolutions</h4>
+        <br>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 hide-leaf">
+                    <img src="img/leftfleaf.svg" height="200px" style="float:right;">
+                </div>
+                <div class="col-lg-8 col-md-8">
+                    <p>AnandSolutions provides various services and solutions that are deliberately helpful and cost
+                        efficient. We always try to get beyond the expectation of our clients by providing the services
+                        beneficial to them. We never feel bad either client is knowladgable in IT Feild or not. We
+                        always lestin to you as our Clients and Gives them solution According to there needs or
+                        requirement. We've well experinced team that can work with Java, Python, .NET/C#, php
+                        Technologies. </p>
+                </div>
+                <div class="col-lg-2 col-md-2 hide-leaf">
+                    <img src="img/rightleaf.svg" height="200px"
+                        style="  -webkit-transform: scaleX(-1); transform: scaleX(-1);">
+                </div>
+            </div>
+        </div>
+        <br><br />
+    </section>
+
+    <section id="maps">
+        <br><br />
+        <h2 class="text-center wcus-head">Why choose AnandSolutions</h2>
+        <br><br />
+        <div class="container">
+            <div class="row" data-aos="fade-down">
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;"><i
+                                class="fa fa-blog"></i></h2>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Web Developement</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;"><i
+                                class="fa fa-blog"></i></h2>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Android Developement</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;"><i
+                                class="fa fa-blog"></i></h2>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">SEO</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-4">
+                    <div class="card" style="width: 100%;">
+                        <h2 class="card-img-top text-center" style="color: red; font-size: 42px; margin-top:14px;"><i
+                                class="fa fa-blog"></i></h2>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Cyber Security</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br />
+    </section>
+    <section id="" style="background-image: linear-gradient(to bottom, rgba(0	, 0, 0, 0.32), rgba(0, 0, 0, 0.43)),url('img/1.png');background-size: 100%;">
+        <br><br />
+        <h2 class="text-center" style="color: #fff">Maps Section</h2>
+        <br><br />
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Automobiles</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Aviation</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Banking</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Beauty</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Books & Reference</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                    <h2> Business</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Communication</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> ECommerce</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Education</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Events</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Fashion</h2>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Finance</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Fitness</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Food & Drinks</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Gaming</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Health Care</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Insurance</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Lifestyle</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Maps & Navigation</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Matrimony</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Music & Audio</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> News & Magazines</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Organization</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Parenting</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Productivity</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Real Estate</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Social Media</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Sports</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Transportation</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Travel</h2>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4 vc-1" style="">
+                    <div class="iner-list">
+                        <h2> Weather</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br />
+    </section>
+
+    <menu>
+        <a class="close-btn" href="#close">&times;</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Templates</a></li>
+            <li><a href="#">Our Clients</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Clients Testimonials</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">FREE QUOTE</a></li>
+        </ul>
+    </menu>
+    <!-- Footer -->
+<footer class="page-footer font-small blue pt-4 bg-dark">
+
+    <!-- Footer Links -->
+    <div class="container-fluid pgf text-center text-md-left">
+  
+      <!-- Grid row -->
+      <div class="row">
+  
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+  
+          <!-- Content -->
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns to organize your footer content.</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <hr class="clearfix w-100 d-md-none pb-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+  
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+  
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!">Link 1</a>
+            </li>
+            <li>
+              <a href="#!">Link 2</a>
+            </li>
+            <li>
+              <a href="#!">Link 3</a>
+            </li>
+            <li>
+              <a href="#!">Link 4</a>
+            </li>
+          </ul>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2020 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+@import "variables.css";
+body, * {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ============================================slidebox-2 ==================================== */
+#jquery-slidebox-2 {
+  width: 300px;
+  margin: 0;
+  padding: 0px;
+  background: #FFF;
+  overflow: hidden;
+  height:180px;
+  z-index: 1020;
+}
+
+#jquery-slidebox-2 .handle {
+  width: 50px;
+  margin: 0;
+  padding: 15px 0;
+  line-height: 100%;
+  background: #ff781e;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: left;
+}
+
+#jquery-slidebox-2 .contents {
+  width: 250px;
+  margin: 0;
+  padding: 30px 0 35px 0;
+  float: right;
+}
+
+/* ============================================slidebox-4 ==================================== */
+#jquery-slidebox-4 {
+  width: 100%;
+  margin: 0;
+  padding: 0px;
+  background: #FFFFFF;
+  z-index: 1020;
+}
+
+#jquery-slidebox-4 .handle {
+  margin: 0;
+  padding: 10px 0;
+  line-height: 100%;
+  background: #9887ad;
+  text-align: center;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+#jquery-slidebox-4 .contents {
+  margin: 0;
+  padding: 30px 0 35px 0;
+}
+
+/* ============================================section#nav-header ==================================== */
+#nav-header{
+  background-image:linear-gradient(rgba(255, 120, 30,0.2),rgba(255, 120, 30,0.2)), url("../img/header-img/Logistic.jpg");
+  height:60vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-size: 100%;
+  color: #fff;
+}
+#nav-header .inner h1{
+  font-size: 32px;
+  font-weight: 700;
+}
+#nav-header .inner h3{
+  margin: 10px 20% 0px 20%;
+}
+/* ============================================Section#req-cal-bk ==================================== */
+#req-cal-bk{
+  background-color: rgba(0, 0, 0, 0.9);
+  height: 140px;
+  animation: reqcalbk 10s infinite;
+  color: #fff;
+}
+.req-cal-bk-in h3{
+  font-weight: 900;
+  margin-top: 30px;
+}
+.req-cal-bk-in .callus-btn{
+  margin-top: 50px;
+}
+.req-cal-bk-in .callus-btn a{
+  text-decoration: none;
+  padding: 15px 40px;
+  background-color: #fafafa;
+}
+@keyframes reqcalbk {
+  25%{
+    background-image: linear-gradient( 45deg, rgba(0,0,0,1), rgba(0,0,0,0.8));
+  }
+  50%{
+    background-image:linear-gradient( 45deg, rgba(0,0,0,1), rgba(0,0,0,0.6));
+  }
+  75%{
+    background-image: linear-gradient( 45deg, rgba(0,0,0,1), rgba(0,0,0,0.4));
+  }
+  100%{
+    background-image: linear-gradient( 45deg, rgba(0,0,0,1), rgba(0,0,0,0.2));;
+  }
+}
+/* ============================================setion#services ==================================== */
+#services {
+  width: 100%;
+  height:100% auto;
+  background-image: 
+    repeating-radial-gradient(
+      circle at 0 0, 
+      #eee,
+      #ccc 50px
+    );
+    background-attachment: fixed;
+  }
+/* ============================================Section#Have-An-Idea ==================================== */
+#Have-An-Idea p{
+  font-size: 19px;
+  margin-top: 17px;
+}
+/* ============================================sectio#why-choose-us ==================================== */
+#why-choose-us {
+	background-image:
+	linear-gradient(to bottom, rgba(0, 0, 0, 0.62), rgba(0, 0, 0, 0.73)),
+	url('../img/who we are bg/1.jpg');	
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#why-choose-us .wcus-head { color: #ccc;}
+#why-choose-us ul li{color: #ccc; text-align: center;}
+/* ============================================section#industries ==================================== */
+.vc-1 .iner-list{padding: 5px;border: 1px solid #ccc; height:50px; font-size: 18px; margin-top:4px; background-color:rgba(255, 255, 255, 0.8);}
+.vc-1 .iner-list:hover{outline: 10px solid #ccc; cursor: pointer; }
+.vc-1 .iner-list h2{font-size: 100%; text-align: center; margin-top: 8px;font-size: 12px;}
+
+/* ============================================section#contact-us==================================== */
+.contactus-text{
+  background-image: url("../img/header-img/contact us textbg.jpg");
+  background-size: 100%;
+  color:rgba(255, 255, 255, 0.1);
+  -webkit-background-clip:text;
+  animation: animate 15s linear infinite;
+}
+@keyframes animate{
+  0%{background-position: left 0px top 10px;}
+  40%{background-position: left 800px top 10px;}
+}
+
+/* ============================================boostrap div.shadoBox==================================== */
+
+
+
+#box1{
+border: 3px solid white ;
+padding: 25px;
+width:100% ;
+border-radius: 10%;
+box-shadow: -3px 3px 6px #d864f5;
+border-spacing: 15px 50px;
+float: right ;
+
+}
+
+#box2{
+border: 3px solid white ;
+padding: 25px;
+width:100% ;
+border-radius: 10%;
+box-shadow: -3px 3px 6px #d864f5;
+border-spacing: 15px 50px;
+
+
+}
+
+#box3{
+border: 3px solid white ;
+padding: 25px;
+width:100% ;
+border-radius: 10%;
+box-shadow: -3px 3px 6px #d864f5;
+border-spacing: 15px 50px;
+float: left
+
+}
+
+
+#box1:hover {
+box-shadow: -3px 3px 6px #00EBAC;
+cursor: pointer;
+
+}
+
+#box2:hover{
+
+box-shadow: -3px 3px 6px #e09034;
+cursor: pointer;
+
+
+}
+
+#box3:hover{
+
+box-shadow: -3px 3px 6px #f5cf45;
+cursor: pointer;
+
+}
+
+/* ============================================boostrap div.cards ==================================== */
+  .card{
+	  padding: 2px;
+	  margin-top: 10px;
+  }
+  .card-title
+  {
+	  color: cornflowerblue;
+	  margin-top: -20px;
+  }
+  .card-text{
+    color: rgb(19, 18, 18); 
+    font-size: 14px;
+  }
+.card:hover h5{
+  color: #ff781e;
+  cursor: pointer;
+}
+
+        
+@media only screen and (max-width: 720px) {
+	menu {
+		width: 100%;
+	}
+	.hide-leaf,.pgf{
+		display: none;
+  }
+  #jquery-slidebox-4 .contents {
+    height: 85vh;
+    overflow: scroll;
+  }
+}
+
+
+
+tr td a img{
+  height: 42px;
+  width: 42px;
+}
+.nav-avil{
+  padding: 7px 8px;
+  border: 1px solid #fff;
+  color: #fafafa;
+  animation: example 4s infinite;
+}
+.dropdown-menu{
+border-top: 5px solid #ff781e;
+}
+@keyframes example {
+from {color: red;
+  border: 1px solid red;
+}
+to {color: yellow;
+  border: 1px solid yellow;
+}
+}
+@media only screen and (max-width: 600px) {
+.req-cal-bk-in .callus-btn{
+margin-top: 0px;
+
+}
+.req-cal-bk-in .callus-btn a{
+padding: 8px 16px;
+margin:30px 0 0 35%;
+}
+.req-cal-bk-in h3{
+font-weight: 500;
+margin-top: 20px;
+font-size: 26px;
+text-align: center;
+}
+#nav-header{
+height: 30vh;
+background-size: 100% 100%;
+}
+#nav-header .inner h2{
+font-size: 30px;
+}
+#nav-header .inner h3{
+font-size: 18px;
+margin: 10px 5% 0px 5%;
+}
+}
+
+

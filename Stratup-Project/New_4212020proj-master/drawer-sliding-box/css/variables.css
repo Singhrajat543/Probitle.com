@@ -1,0 +1,23 @@
+
+a,p{
+    font-size: 14px;
+}
+
+
+.hdn-lg{display: none;}
+@media only screen and (max-width: 600px){.hdn-xs{display: none;}}
+@media only screen and (max-width: 768px){.hdn-sm{display: none;}}
+@media only screen and (max-width: 900px){.hdn-md{display: none;}}
+
+nav a{font-size: 18px; color: #222;}
+nav a:hover{font-size: 18px; color: #ff781e;}
+.bg-primery, .border{background-color: #ff781e; color: #fff}
+.sub-heading
+{
+font-size: 14px;
+}
+
+.anchor-highlight
+{
+    color:  #ff781e;
+}
